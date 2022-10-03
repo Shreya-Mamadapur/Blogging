@@ -2,6 +2,17 @@ body{
     background-color: black;
 }
 
+.scrolldown{
+    border-radius: 50%;
+    background-color: darkgray;
+    align-self: center;
+    align-items: flex-end;
+    margin-left: 50%;
+}
 
+
+.copyright{
+    text-align: center;
+}
 
 
