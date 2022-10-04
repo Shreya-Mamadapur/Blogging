@@ -1,41 +1,43 @@
-
-
-.scrolldown, .scrollup{
-    border-radius: 50%;
-    background-color: darkgray;
-    margin-left: 50%;
-    position: relative;
-    top:0px;
+.scrolldown, .scrollup {
+  border-radius: 50%;
+  background-color: darkgray;
+  margin-left: 50%;
+  position: relative;
+  top: 0px;
 }
 
-
-
-
-#Img0 a{
-    color: white;
-    text-decoration: none;
-    padding-left: 15%;
-}
-#Img0 a:hover{
-    color: gray;
+.scrollup {
+  margin-bottom: 5%;
 }
 
+#Img0 a {
+  color: white;
+  text-decoration: none;
+  padding-left: 15%;
+}
+
+#Img0 a:hover {
+  color: gray;
+}
 
 /* .progress{
     width:10%;
     position: fixed;
     bottom: 0;
 } */
-
-.animate{
-    animation: updown linear 2s 3;
-}
-@keyframes updown{
-    50%{top: -50px;}
+.animate {
+  -webkit-animation: updown linear 2s 3;
+          animation: updown linear 2s 3;
 }
 
-.copyright{
-    text-align: center;
+@-webkit-keyframes updown {
+  50% {
+    top: -50px;
+  }
 }
 
-
+@keyframes updown {
+  50% {
+    top: -50px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+
+
+.scrolldown{
+    border-radius: 50%;
+    background-color: darkgray;
+    margin-left: 50%;
+    position: relative;
+    top:0px;
+}
+
+.scrollup{
+    @extend .scrolldown;
+    margin-bottom: 5%;
+}
+
+
+#Img0 a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15%;
+}
+#Img0 a:hover{
+    color: gray;
+}
+
+
+/* .progress{
+    width:10%;
+    position: fixed;
+    bottom: 0;
+} */
+
+.animate{
+    animation: updown linear 2s 3;
+}
+@keyframes updown{
+    50%{top: -50px;}
+}
+
+
+
+
